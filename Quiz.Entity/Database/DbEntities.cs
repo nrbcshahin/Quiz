@@ -69,6 +69,8 @@ namespace Quiz.Entity.Database
         public DbSet<Program> Programs { get; set; }
         public DbSet<Subject> Subjects { get; set; }
         public DbSet<Chapter> Chapters { get; set; }
+        public DbSet<Course> Courses { get; set; }
+        public DbSet<Exam> Exams { get; set; }
 
         //Lottery
         public DbSet<Prize> Prizes { get; set; }

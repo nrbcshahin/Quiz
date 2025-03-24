@@ -25,7 +25,6 @@ namespace Quiz.MobileApi.Controllers
         public async Task<IActionResult> MenuList(SearchParam param)
         {
             var menus = await _entities.Menus
-                        .Where(x=>x.ParentId == param.ParentId)
                         .Where(x=>x.IsActive)
                         .OrderBy(x=>x.SerialNo)
                         .AsNoTracking()

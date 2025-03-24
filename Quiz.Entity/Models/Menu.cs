@@ -6,7 +6,6 @@ namespace Quiz.Entity.Models
     {
         [Key]
         public int MenuId { get; set; }
-        public int ParentId { get; set; }
         public string Name { get; set; }
         public string Image { get; set; }
         public bool IsActive { get; set; }

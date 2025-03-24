@@ -28,7 +28,6 @@ class _ProgramListViewState extends State<ProgramListView> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: ThemeWidget().appBar(context, ""),
-      drawer: getDrawer(context),
       body: isLoading
           ? ThemeWidget().progress()
           : Container(

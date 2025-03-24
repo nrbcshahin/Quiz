@@ -28,15 +28,39 @@ namespace Quiz.MobileApi.Controllers
         {
             var carousels = await _entities.Carousels
                 .Where(x => x.IsActive)
+                .OrderBy(x => x.SerialNo)
                 .Take(5)
                 .AsNoTracking()
                 .ToListAsync();
 
+            var menus = await _entities.Menus
+               .Where(x => x.IsActive)
+               .OrderBy(x=>x.SerialNo)
+               .Take(6)
+               .AsNoTracking()
+               .ToListAsync();
+
+            var courses = await _entities.Courses
+              .Where(x => x.IsActive)
+              .OrderBy(x => x.SerialNo)
+              .Take(10)
+              .AsNoTracking()
+              .ToListAsync();
+
+            var exams = await _entities.Exams
+             .Where(x => x.IsActive)
+             .OrderBy(x => x.SerialNo)
+             .Take(10)
+             .AsNoTracking()
+             .ToListAsync();
 
             return Ok(new
             {
                 Success = true,
                 Carousels = carousels,
+                Menus = menus,
+                Courses = courses,
+                Exams = exams
             });
         }
     }

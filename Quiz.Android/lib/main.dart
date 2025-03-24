@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:quiz/views/program_list.view.dart';
+import 'package:quiz/views/welcome.view.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         appBarTheme: const AppBarTheme(
             color: Colors.transparent, foregroundColor: Colors.black87),
       ),
-      home: const ProgramListView(),
+      home: const WelcomeView(),
     );
   }
 }

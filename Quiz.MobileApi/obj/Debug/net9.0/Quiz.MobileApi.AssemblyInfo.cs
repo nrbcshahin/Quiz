@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Quiz.MobileApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+031ff1c6ae0a2d4b936b61f8a0b0b859eb0faeed")]
 [assembly: System.Reflection.AssemblyProductAttribute("Quiz.MobileApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Quiz.MobileApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

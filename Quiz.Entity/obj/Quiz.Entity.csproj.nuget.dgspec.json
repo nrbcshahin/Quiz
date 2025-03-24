@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\MOBILE\\Quiz\\Quiz.Entity\\Quiz.Entity.csproj": {}
+    "I:\\MOBILE\\Quiz\\Quiz.Entity\\Quiz.Entity.csproj": {}
   },
   "projects": {
-    "F:\\MOBILE\\Quiz\\Quiz.Entity\\Quiz.Entity.csproj": {
+    "I:\\MOBILE\\Quiz\\Quiz.Entity\\Quiz.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\MOBILE\\Quiz\\Quiz.Entity\\Quiz.Entity.csproj",
+        "projectUniqueName": "I:\\MOBILE\\Quiz\\Quiz.Entity\\Quiz.Entity.csproj",
         "projectName": "Quiz.Entity",
-        "projectPath": "F:\\MOBILE\\Quiz\\Quiz.Entity\\Quiz.Entity.csproj",
-        "packagesPath": "C:\\Users\\shahin.khalifa\\.nuget\\packages\\",
-        "outputPath": "F:\\MOBILE\\Quiz\\Quiz.Entity\\obj\\",
+        "projectPath": "I:\\MOBILE\\Quiz\\Quiz.Entity\\Quiz.Entity.csproj",
+        "packagesPath": "C:\\Users\\Shahin\\.nuget\\packages\\",
+        "outputPath": "I:\\MOBILE\\Quiz\\Quiz.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\shahin.khalifa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Shahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

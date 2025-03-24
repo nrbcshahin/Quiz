@@ -13,6 +13,8 @@ namespace Quiz.Entity.Models
         public ExamType ExamType { get; set; }
         public DateTime? StartTime { get; set; }
         public DateTime? EndTime { get; set; }
+        public bool IsActive { get; set; }
+        public int SerialNo { get; set; }
 
         public virtual ICollection<Question> Questions { get; set; }
         public virtual ICollection<UserExam> UserExams { get; set; }

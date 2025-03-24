@@ -1,0 +1,2 @@
+I:/MOBILE/Quiz/Quiz.Android/android/app/.cxx/Debug/71n2r5o4/armeabi-v7a/CMakeFiles/edit_cache.dir
+I:/MOBILE/Quiz/Quiz.Android/android/app/.cxx/Debug/71n2r5o4/armeabi-v7a/CMakeFiles/rebuild_cache.dir

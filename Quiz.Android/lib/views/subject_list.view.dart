@@ -28,7 +28,6 @@ class _SubjectListViewState extends State<SubjectListView> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: ThemeWidget().appBar(context, ""),
-      drawer: getDrawer(context),
       body: isLoading
           ? ThemeWidget().progress()
           : Container(
