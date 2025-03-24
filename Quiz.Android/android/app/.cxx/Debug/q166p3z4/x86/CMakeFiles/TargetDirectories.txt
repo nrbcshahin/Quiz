@@ -1,0 +1,2 @@
+G:/MOBILE/Quiz/Quiz.Android/android/app/.cxx/Debug/q166p3z4/x86/CMakeFiles/edit_cache.dir
+G:/MOBILE/Quiz/Quiz.Android/android/app/.cxx/Debug/q166p3z4/x86/CMakeFiles/rebuild_cache.dir

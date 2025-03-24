@@ -1,0 +1,194 @@
+[
+  {
+    "ContainingType": "Quiz.WebApi.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "Quiz.Helper.VModels.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Quiz.WebApi.Controllers.AuthController",
+    "Method": "Logout",
+    "RelativePath": "api/auth/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Quiz.Helper.VModels.AppSignature",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Quiz.WebApi.Controllers.AuthController",
+    "Method": "Signature",
+    "RelativePath": "api/auth/signature",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Quiz.Helper.VModels.AppSignature",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Quiz.WebApi.Controllers.MenuController",
+    "Method": "MenuList",
+    "RelativePath": "api/menu/menu-list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "Quiz.Helper.VModels.SearchParam",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Quiz.WebApi.Controllers.QuestionController",
+    "Method": "QuestionList",
+    "RelativePath": "api/question/question-list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "param",
+        "Type": "Quiz.Helper.VModels.SearchParam",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Quiz.WebApi.Controllers.TournamentController",
+    "Method": "MenuList",
+    "RelativePath": "api/tournament/tournament-list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "Quiz.Helper.VModels.SearchParam",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Quiz.WebApi.Controllers.TransactionController",
+    "Method": "SaveTransaction",
+    "RelativePath": "api/transaction/save-transaction",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transaction",
+        "Type": "System.Transactions.Transaction",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Quiz.WebApi.Controllers.TransactionController",
+    "Method": "TransactionList",
+    "RelativePath": "api/transaction/transaction-list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "param",
+        "Type": "Quiz.Helper.VModels.AppParam",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Quiz.WebApi.Controllers.UserController",
+    "Method": "SaveUser",
+    "RelativePath": "api/user/save-user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Quiz.Entity.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Quiz.WebApi.Controllers.UserController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/user/update-user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Quiz.Entity.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Quiz.WebApi.Controllers.UserController",
+    "Method": "UserInfoAsync",
+    "RelativePath": "api/user/user-info",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "param",
+        "Type": "Quiz.Helper.VModels.AppParam",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Quiz.WebApi.Controllers.WelcomeController",
+    "Method": "GetData",
+    "RelativePath": "api/welcome",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "Quiz.Helper.VModels.SearchParam",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
